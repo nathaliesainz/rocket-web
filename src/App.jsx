@@ -1,20 +1,29 @@
-//import HeaderImage from '../src/assets/spacex.jpg'
 import './App.css'
 
 function App() {
   return (
     <>
-      <container className='container'>
-          <header>
-              <h1>Rocket</h1>
-              <h2>Improving all the time</h2>
-              <button>Start</button>
-          </header>
+      <container>
+            <header>
+                <div>
 
-          <div>
+                </div>
+                <div className='boxLine'>
+                  <span className='mainLine'>Rocket</span>
+                  <span className='subLine'>Improving all the time</span>
+                  <a href="#">Start</a>
+                </div>
+            </header>
 
-          </div>
-      </container>
+            <div>
+            <h2>Capsules status:</h2>
+            <h2>All capsules:</h2>
+            </div>
+
+            <footer>
+              <p>FIX YOUR LITTLE PROBLEM AND LIGHT THIS CANDLE.</p>
+            </footer>
+        </container>
     </>
   )
 }
