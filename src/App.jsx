@@ -12,7 +12,7 @@ function App() {
                 <div className='boxLine'>
                   <p className='mainLine'>Rocket</p>
                   <p className='subLine'>Improving all the time</p>
-                  <a href="#">Start</a>
+                  <a href="#" className='BtnStart'>Start</a>
                 </div>
             </header>
 
