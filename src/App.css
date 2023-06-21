@@ -71,9 +71,24 @@ header {
   border-radius: 50px;
 }
 
+h2 {
+  margin-top: 17px;
+}
+
 .rocketStatus {
   display: flex;
+  height: 20vh;
+  margin-top: 10px;
   justify-content: space-around;
+  /* border: solid 1px red; */
+}
+
+.rocketStatus div {
+  width: 30%;
+  height: 78%;
+  margin: auto;
+  color: white;
+  border-radius: 8px;
 }
 
 .rocketStatus img {
@@ -81,6 +96,13 @@ header {
 }
 
 .activeRockets {
-  border-color: red;
-  /*background-color: linear-gradient(#CE9FFC, #7367F0);*/
+  background: linear-gradient(#CE9FFC, #7367F0);
+}
+
+.destroyedRockets {
+  background: linear-gradient(#65799b, #5e2563);
+}
+
+.unknownRockets {
+  background: linear-gradient(#7117ea, #ea6060);
 }

@@ -22,21 +22,27 @@ function App() {
             <div>
             <h2>Capsules status:</h2>
             <div className='rocketStatus'>
-              <div className='activeRockets'>
-                <span>Active</span>
-                <img src={ActiveRocket} alt="Active Rockets" />
-              </div>
-              <div className='destroyedRockets'>
-                <span>Destroyed</span>
-                <img src={DestroyedRocket} alt="Destroyed Rockets" />
-              </div>
-              <div className='unknownRockets'>
-                <span>Unknown</span>
-                <img src={UnknownRocket} alt="Unknown Rockets" />
-              </div>
+
+                <div className='activeRockets'>
+                  <span>Active</span>
+                  <img src={ActiveRocket} alt="Active Rockets" />
+                </div>
+
+                <div className='destroyedRockets'>
+                  <span>Destroyed</span>
+                  <img src={DestroyedRocket} alt="Destroyed Rockets" />
+                </div>
+
+                <div className='unknownRockets'>
+                  <span>Unknown</span>
+                  <img src={UnknownRocket} alt="Unknown Rockets" />
+                </div>
+
             </div>
+
             <h2>All capsules:</h2>
-              <div className='boxRockets'></div>
+
+            <div className='boxRockets'></div>
             </div>
 
             <footer className='footer'>
