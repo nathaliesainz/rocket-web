@@ -9,6 +9,7 @@
 
 body {
   padding: 30px;
+  color: #5A5A5A
 }
 
 header {
@@ -34,7 +35,7 @@ header {
   height: 70px;
 }
 
-.boxLine {
+.boxTitles {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -42,21 +43,21 @@ header {
   text-align: center;
 }
 
-.mainLine {
+.mainTitle {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
   margin-left: 30px;
 }
 
-.subLine{
+.subtitle{
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 10px;
   margin-top: 30px;
 }
 
-header a {
+.btnStart {
   display: in-block;
   height: 58px;
   width: 126px;
@@ -68,4 +69,18 @@ header a {
   background-color: white;
   color: #777;
   border-radius: 50px;
+}
+
+.rocketStatus {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rocketStatus img {
+  width: 35px;
+}
+
+.activeRockets {
+  border-color: red;
+  /*background-color: linear-gradient(#CE9FFC, #7367F0);*/
 }
