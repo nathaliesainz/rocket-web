@@ -1,3 +1,4 @@
+import HeaderRocket from './assets/rocket.svg'
 import './App.css'
 
 function App() {
@@ -6,11 +7,11 @@ function App() {
       <container>
             <header>
                 <div>
-
+                  <img src={HeaderRocket} className='HeaderRocket' alt="Rocket Logo" />
                 </div>
                 <div className='boxLine'>
-                  <span className='mainLine'>Rocket</span>
-                  <span className='subLine'>Improving all the time</span>
+                  <p className='mainLine'>Rocket</p>
+                  <p className='subLine'>Improving all the time</p>
                   <a href="#">Start</a>
                 </div>
             </header>
