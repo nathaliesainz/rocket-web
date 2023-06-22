@@ -46,7 +46,7 @@ function App() {
             </div>
 
             <footer className='footer'>
-              <p>FIX YOUR LITTLE PROBLEM AND LIGHT THIS CANDLE.</p>
+              FIX YOUR LITTLE PROBLEM AND LIGHT THIS CANDLE.
             </footer>
         </container>
     </>
