@@ -20,16 +20,19 @@ const Capsules = () => {
 
 return (
     <>
-    {capsules.map(capsule => (
-        <div 
-            className="divRocket"
-            key={capsule.capsule_id}> 
+    <div className='boxRockets'>
+        {capsules.map(capsule => (
+            <div 
+                className="divRocket"
+                key={capsule.capsule_id}> 
 
-            {capsule.capsule_serial} 
-            {capsule.details} 
-            
+                
+                <h3>{capsule.capsule_serial} </h3>
+                <span>{capsule.details}</span>
+                
+            </div>
+        ))}
         </div>
-    ))}
     </>
 )
 };

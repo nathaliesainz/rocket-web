@@ -43,9 +43,8 @@ function App() {
 
             <h2>All capsules:</h2>
 
-            <div className='boxRockets'>
-              <Capsules/>
-            </div>
+            <Capsules />
+            
             </div>
 
             <footer className='footer'>

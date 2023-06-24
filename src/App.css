@@ -144,6 +144,27 @@ h2 {
   background: linear-gradient(#7117ea, #ea6060);
 }
 
+.boxRockets {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.divRocket {
+  display: flex;
+  flex-direction: column;
+  width: 21%;
+  margin: 1%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #03061a26;
+}
+
 .footer {
   display: flex;
   width: 100%;
@@ -152,4 +173,5 @@ h2 {
   color: white;
   justify-content: center;
   align-items: center;
+  margin-top: 30px
 }
