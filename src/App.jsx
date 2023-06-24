@@ -3,6 +3,7 @@ import ActiveRocket from './assets/rocketActive.svg'
 import DestroyedRocket from './assets/rocketDeactivate.svg'
 import UnknownRocket from './assets/rocketUnknown.svg'
 import './App.css'
+import Capsules from './Api'
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
 
             <h2>All capsules:</h2>
 
-            <div className='boxRockets'></div>
+            <div className='boxRockets'>
+              <Capsules/>
+            </div>
             </div>
 
             <footer className='footer'>
