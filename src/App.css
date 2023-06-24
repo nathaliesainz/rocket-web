@@ -156,13 +156,17 @@ h2 {
 .divRocket {
   display: flex;
   flex-direction: column;
-  width: 21%;
+  width: 20%;
   margin: 1%;
-  padding: 30px;
+  padding: 33px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 2px 5px #03061a26;
+}
+
+.divRocket span {
+  font-size: 17px;
 }
 
 .footer {
