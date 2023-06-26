@@ -155,7 +155,7 @@ h2 {
 
 .divRocket {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 20%;
   margin: 1%;
   padding: 33px;
@@ -165,8 +165,20 @@ h2 {
   box-shadow: 0 2px 5px #03061a26;
 }
 
+.divRocket h3 {
+  display: block;
+}
+
+.imgCards {
+  display: block;
+  width: 25px;
+}
+
 .divRocket span {
+  display: block;
   font-size: 17px;
+  text-align: left;
+  align-self: flex-end;
 }
 
 .footer {

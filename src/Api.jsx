@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import ActiveRocket from './assets/rocketActive.svg'
+import DestroyedRocket from './assets/rocketDeactivate.svg'
+import UnknownRocket from './assets/rocketUnknown.svg'
 
 const Capsules = () => {
     const [capsules, setCapsules] = useState([]);
-
 
     useEffect(() => {
         const requestApi = async () => {
@@ -18,16 +20,24 @@ const Capsules = () => {
     requestApi();
 }, []);
 
+
+    const rocketImages = {
+        active: ActiveRocket,
+        retired: DestroyedRocket,
+        destroyed: DestroyedRocket,
+        unknown: UnknownRocket
+    }
+
+
 return (
     <>
     <div className='boxRockets'>
         {capsules.map(capsule => (
             <div 
                 className="divRocket"
-                key={capsule.capsule_id}> 
-
-                
-                <h3>{capsule.capsule_serial} </h3>
+                key={capsule.capsule_id}>
+                <h3>{capsule.capsule_serial}</h3>
+                <img src={rocketImages[capsule.status]} className="imgCards" />
                 <span>{capsule.details}</span>
                 
             </div>
